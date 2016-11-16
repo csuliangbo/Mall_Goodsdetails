@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <com.example.itcast.customtest.ProductDetailView
+            android:id="@+id/productDetailView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <!--第一屏的界面-->
+            <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#f00"
+                android:orientation="vertical">
+
+                <com.example.itcast.customtest.FakeRightViewPager
+                    android:id="@+id/vp"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:background="#0f0">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+                    <android.support.v4.view.ViewPager
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                    </android.support.v4.view.ViewPager>
+                </com.example.itcast.customtest.FakeRightViewPager>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:text="内容0"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:text="内容1"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:text="内容2"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:text="内容3"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:text="内容4"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:text="内容5"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:text="内容6"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:text="内容7"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:text="内容8"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:text="内容9"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:text="内容10"/>
+            </LinearLayout>
+        </ScrollView>
+
+            <!--下边界面-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/darker_gray">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="上拉刷新"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"/>
+        </RelativeLayout>
+        </com.example.itcast.customtest.ProductDetailView>
+<!--右边界面-->
+</RelativeLayout>

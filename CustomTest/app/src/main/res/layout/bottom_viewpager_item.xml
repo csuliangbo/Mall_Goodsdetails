@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <com.example.itcast.customtest.SuperSwipeRefreshLayout
+        android:id="@+id/swipeRefresh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <ScrollView
+        android:id="@+id/bottomChild"
+        android:background="#00f"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:text="下边fragment内容0"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:text="下边fragment内容1"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:text="下边fragment内容2"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:text="下边fragment内容3"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:text="下边fragment内容4"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:text="下边fragment内容5"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:text="下边fragment内容6"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:text="下边fragment内容7"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:text="下边fragment内容8"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:text="下边fragment内容9"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:text="下边fragment内容10"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:text="下边fragment内容11"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:text="下边fragment内容12"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:text="下边fragment内容13"/>
+        </LinearLayout>
+    </ScrollView>
+    </com.example.itcast.customtest.SuperSwipeRefreshLayout>
+</LinearLayout>
